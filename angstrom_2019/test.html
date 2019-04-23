@@ -2,13 +2,14 @@
 
 <head>
     <script>
-        var sc = document.createElement("script");
-        sc.type = 'text/javascript';
-        //アクセス先を指定
-        sc.src = "https://en5y4kiefmycn.x.pipedream.net/";
-        //生成したスクリプトタグを追加、実行
-        var parent = document.getElementsByTagName("script")[0];
-        parent.parentNode.insertBefore(sc, parent);
+        // var sc = document.createElement("script");
+        // sc.type = 'text/javascript';
+        // //アクセス先を指定
+        // sc.src = "https://en5y4kiefmycn.x.pipedream.net/";
+        // //生成したスクリプトタグを追加、実行
+        // var parent = document.getElementsByTagName("script")[0];
+        // parent.parentNode.insertBefore(sc, parent);
+        fetch("https://en5y4kiefmycn.x.pipedream.net/").then(result => { console.log(result) })
     </script>
 </head>
 
