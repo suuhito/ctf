@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>My test page</title>
     <script>
-        fetch('http://35.187.214.138:10023/?q=XSS')
-            .then(function (res) {
-                console.log(res);
-            });
+        var request = new XMLHttpRequest()
+        request.open('GET', "http://35.187.214.138:10023/?q=XSS", false)
+        request.send(null)
+        console.log(request.responseText)
     </script>
 </head>
 
